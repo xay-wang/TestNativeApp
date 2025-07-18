@@ -1,4 +1,3 @@
-// constants/Colors.js
 export default {
   primary: '#4CAF50', // Green
   accent: '#FFC107',  // Amber

@@ -1,4 +1,3 @@
-// constants/Data.js
 export const PRODUCTS = [
   {
     id: 'p1',

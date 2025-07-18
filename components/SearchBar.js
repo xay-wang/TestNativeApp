@@ -1,4 +1,3 @@
-// components/SearchBar.js
 import React from 'react';
 import { View, TextInput, StyleSheet } from 'react-native';
 import Colors from '../constants/Colors';

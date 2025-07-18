@@ -1,4 +1,3 @@
-// screens/ProductListScreen.js
 import React, { useState, useEffect } from 'react';
 import { View, FlatList, StyleSheet, Text, ActivityIndicator } from 'react-native';
 import ProductCard from '../components/ProductCard';

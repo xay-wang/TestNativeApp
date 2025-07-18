@@ -1,6 +1,5 @@
-// context/CartContext.js
 import React, { createContext, useState, useContext, useEffect } from 'react';
-import AsyncStorage from '@react-native-async-storage/async-storage'; // You'll need to install this
+import AsyncStorage from '@react-native-async-storage/async-storage'; 
 
 const CartContext = createContext();
 

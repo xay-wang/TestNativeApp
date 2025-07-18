@@ -1,4 +1,3 @@
-// screens/ProductDetailScreen.js
 import React from 'react';
 import { View, Text, Image, StyleSheet, ScrollView, TouchableOpacity, Alert } from 'react-native';
 import Colors from '../constants/Colors';
