@@ -2,7 +2,7 @@
 export const PRODUCTS = [
   {
     id: 'p1',
-    name: 'ຜັກກາດຂຽວ',
+    name: 'ຜັກກາດຂຽວ(1kg)',
     description: 'ຜັກກາດຂຽວສົດທີ່ປູກຢູ່ໃນສວນຜັກສົດທຸກມື້ ເໝາະສຳລັບປຸງແກງ, ຜັດນ້ຳມັນ ຫຼື ປຸງນ້ຳປາ ເພີ່ມຄວາມອຸດົມສົມບູນໃຫ້ອາຫານຂອງທ່ານ.',
     price: 20000,
     imageUrl: require('../assets/images/vegetable1.jpg'),
@@ -10,7 +10,7 @@ export const PRODUCTS = [
   },
   {
     id: 'p2',
-    name: 'ຜັກກາດຂາວ',
+    name: 'ຜັກກາດຂາວ(1kg)',
     description: 'ຜັກກາດຂາວສົດຈາກສວນທ້ອງຖິ່ນ ມີຄວາມກອບ ແລະ ຮົ່ມລື່ນ ມີວິຕາມິນ C ແລະ ໃຍອາຫານສູງ ເໝາະສຳລັບທຳອາຫານພື້ນເມືອງ ແລະ ອາຫານນາຊາດຕ່າງໆ.',
     price: 18000,
     imageUrl: require('../assets/images/vegetable2.jpg'),
@@ -18,7 +18,7 @@ export const PRODUCTS = [
   },
   {
     id: 'p3',
-    name: 'ໝາກກ້ອຍ',
+    name: 'ໝາກກ້ອຍ(1kg)',
     description: 'ໝາກກ້ອຍຫວານໆ ສົດໃໝ່ ສົ່ງຈາກສວນ ມີໄຟເບີ້ ແລະ ເປັນແຫຼ່ງພະລັງງານຈາກຄາໂບໄຮເດຣດຊັ້ນດີ ເໝາະສຳລັບກິນເປັນຂອງຫວານ ຫຼື ປຸງເປັນເມນູຫວານຕ່າງໆ.',
     price: 25000,
     imageUrl: require('../assets/images/fruit2.jpg'),
@@ -26,7 +26,7 @@ export const PRODUCTS = [
   },
   {
     id: 'p4',
-    name: 'ໝາກກ້ຽງ',
+    name: 'ໝາກກ້ຽງ(1kg)',
     description: 'ໝາກກ້ຽງສົດໃໝ່ ມີລົດຊາດປະເພດເປັນເອກະລັກ ແລະ ເປັນແຫຼ່ງຂອງວິຕາມິນ C ແລະ ແຄລຊຽມ ເໝາະສຳລັບທຳນ້ຳຜົມ ຫຼື ກິນສົດໆ.',
     price: 30000,
     imageUrl: require('../assets/images/fruit4.jpg'),
@@ -34,7 +34,7 @@ export const PRODUCTS = [
   },
   {
     id: 'p5_a',
-    name: 'ຜັກສະລັດ',
+    name: 'ຜັກສະລັດ(1kg)',
     description: 'ຜັກສະລັດອອກແກນິກ ປູກໂດຍບໍ່ໃຊ້ສານເຄມີ ສົດສະອາດ ແລະ ມີຄຸນຄ່າອາຫານສູງ ເໝາະສຳລັບສະລັດຜັກ ຫຼື ປະກອບເມນູອາຫານເພື່ອສຸຂະພາບ.',
     price: 12000,
     imageUrl: require('../assets/images/vegetable4.jpg'),
@@ -42,7 +42,7 @@ export const PRODUCTS = [
   },
   {
     id: 'p6_a',
-    name: 'ໝາກມ່ວງ',
+    name: 'ໝາກມ່ວງ(1kg)',
     description: 'ໝາກມ່ວງສຸກຫວານຫອມ ມີລົດຊາດເປັນເອກະລັກ ເປັນແຫຼ່ງຂອງວິຕາມິນ A ແລະ C ເຫຼາະສຳລັບປຸງຂອງຫວານ ນ້ຳຫມາກມ່ວງ ຫຼື ເຮັດເປັນນ້ຳຜົມ.',
     price: 30000,
     imageUrl: require('../assets/images/fruit1.jpg'),
@@ -50,7 +50,7 @@ export const PRODUCTS = [
   },
   {
     id: 'p7',
-    name: 'ຜັກບົ້ງ',
+    name: 'ຜັກບົ້ງ(1kg)',
     description: 'ຜັກບົ້ງສົດໆທີ່ປູກຕາມຂອບນ້ຳທ້ອງຖິ່ນ ກອບຫວານ, ອຸດົມສົມບຸນ ແລະ ໃຍອາຫານ ເໝາະສຳລັບແກງສົ້ມ ຜັດ ຫຼື ຈິ່ມນ້ຳຈິ່ມ.',
     price: 8000,
     imageUrl: require('../assets/images/vegetable3.jpg'),
@@ -58,7 +58,7 @@ export const PRODUCTS = [
   },
   {
     id: 'p8',
-    name: 'ໝາກແຕ່ງໂມ',
+    name: 'ໝາກແຕ່ງໂມ(1kg)',
     description: 'ໝາກແຕ່ງໂມຫວານຊື່ນ ມີນ້ຳຫຼາຍ ແລະ ມີປະໂຫຍດໃນການຮັກສານ້ຳໃນຮ່າງກາຍ ເໝາະສຳລັັບການຄາຍຮ້ອນ ໃນວັນອາກາດຮ້ອນ ຫຼື ຈັດສົມບູນອາຫານ.',
     price: 35000,
     imageUrl: require('../assets/images/fruit3.jpg'),

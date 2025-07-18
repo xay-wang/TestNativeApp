@@ -79,6 +79,3 @@ export const CartProvider = ({ children }) => {
 };
 
 export const useCart = () => useContext(CartContext);
-
-// Don't forget to install async-storage:
-// expo install @react-native-async-storage/async-storage

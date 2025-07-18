@@ -46,7 +46,7 @@ const ShoppingCartScreen = ({ navigation }) => {
     <View style={styles.container}>
       {cartItems.length === 0 ? (
         <View style={styles.emptyCartContainer}>
-          <Text style={styles.emptyCartText}>ກະຕ່າຂອງຫວ່າງເປົ່າ!</Text>
+          <Text style={styles.emptyCartText}>ກະຕ່າຫວ່າງເປົ່າ!</Text>
           <TouchableOpacity
             style={styles.browseButton}
             onPress={() => navigation.navigate('ProductList')}

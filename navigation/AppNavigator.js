@@ -57,7 +57,7 @@ const AppNavigator = () => {
           name="ProductDetail"
           component={ProductDetailScreen}
           options={({ route }) => ({
-            title: route.params?.product.name || 'Product Details',
+            title: route.params?.product.name || 'ລາຍລະອຽດສິນຄ້າ',
             headerRight: () => <CartIcon />,
           })}
         />
